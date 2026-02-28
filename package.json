@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-shopping",
-  "version": "2.0.0",
-  "description": "Modernized Node.js online shopping application",
+  "name": "nodejs-shopping-standalone",
+  "version": "3.0.0",
+  "description": "Standalone Node.js shopping app (no database)",
   "main": "app.js",
   "type": "commonjs",
   "scripts": {
@@ -11,26 +11,13 @@
   "engines": {
     "node": ">=18"
   },
-  "author": "Gaëtan Bloch",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
     "compression": "^1.7.4",
-    "connect-flash": "^0.1.1",
-    "connect-mongodb-session": "^4.0.0",
-    "csurf": "^1.11.0",
-    "dotenv": "^16.4.0",
     "ejs": "^3.1.9",
     "express": "^4.19.2",
-    "express-session": "^1.17.3",
-    "express-validator": "^7.0.1",
     "helmet": "^7.0.0",
-    "mongoose": "^7.6.0",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1",
-    "nodemailer": "^6.9.8",
-    "pdfkit": "^0.14.0",
-    "stripe": "^14.0.0"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
